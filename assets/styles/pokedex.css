@@ -1,3 +1,5 @@
+
+
 .pokemon-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,6 +30,7 @@
 }
 
 .detail {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,10 +46,23 @@
     font-size: .8rem;
     text-align: center;
     margin: 5px;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 20px;
     background-color: #16c286;
-    border: solid 1px rgba(157, 157, 157, 0.5)
+}
+
+.img-pokemon {
+    position: relative;
+    z-index: 1;
+}
+
+.img-bg-pokemon {
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    z-index: 0;
+    max-width: 90px;
+    opacity: 0.3;
 }
 
 /* Media queries*/
@@ -68,4 +84,132 @@
     .pokemon-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+
+/* Type Colors Background*/
+.normal {
+    background: linear-gradient(90deg, #707052 , #D6D59C);
+}
+.btn-normal {
+    background-color: #D6D59C;
+}
+
+.fire {
+    background: linear-gradient(90deg, #703D16 , #FC8A32);
+}
+.btn-fire {
+    background-color: #FC8A32;
+}
+
+.water {
+    background: linear-gradient(90deg, #2E4370 , #6897FC);
+}
+.btn-water {
+    background-color: #6897FC;
+}
+
+.electric {
+    background: linear-gradient(90deg, #705E14 , #D6B327);
+}
+.btn-electric {
+    background-color: #D6B327;
+}
+
+.grass {
+    background: linear-gradient(90deg, #44702B , #82D651);
+}
+.btn-grass {
+    background-color:#82D651 ;
+}
+
+.ice {
+    background: linear-gradient(90deg, #4D706E , #94D6D3);
+}
+.btn-ice {
+    background-color: #94D6D3;
+}
+
+.gighting {
+    background: linear-gradient(90deg, #701B18 , #D6332D);
+}
+.btn-gighting {
+    background-color: #D6332D;
+}
+
+.poison {
+    background: linear-gradient(90deg, #702B6F , #D651D4);
+}
+.btn-poison {
+    background-color: #D651D4;
+}
+
+.ground {
+    background: linear-gradient(90deg, #705F32 , #D6B560);
+}
+.btn-ground {
+    background-color: #D6B560;
+}
+
+.flying {
+    background: linear-gradient(90deg, #4E4270 , #967ED6);
+}
+.btn-flying {
+    background-color: #967ED6;
+}
+
+.psychic {
+    background: linear-gradient(90deg, #70263C , #D64973);
+}
+.btn-psychic {
+    background-color:#D64973;
+}
+
+.bug {
+    background: linear-gradient(90deg, #657010 , #C1D61E);
+}
+.btn-bug {
+    background-color: #C1D61E;
+}
+
+.rock {
+    background: linear-gradient(90deg, #706322 , #D6BD40);
+}
+.btn-rock {
+    background-color: #D6BD40;
+}
+
+.ghost {
+    background: linear-gradient(90deg, #554170 , #A37CD6);
+}
+.btn-ghost {
+    background-color: #A37CD6;
+}
+
+.dragon {
+    background: linear-gradient(90deg, #311870 , #5D2DD6);
+}
+.btn-dragon {
+    background-color: #5D2DD6;
+}
+
+.dark {
+    background: linear-gradient(90deg, #705747, #D6A787);
+}
+.btn-dark {
+    background-color: #D6A787;
+}
+
+.steel {
+    background: linear-gradient(90deg, #646470, #BFBFD6);
+}
+.btn-steel {
+    background-color: #BFBFD6;
+}
+
+.fairy {
+    background: linear-gradient(90deg, #70465B, #D685AE);
+}
+.btn-fairy {
+    background-color: #D685AE;
 }
