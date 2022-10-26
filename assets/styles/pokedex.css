@@ -71,7 +71,7 @@
 .img-pokemon {
     position: relative;
     z-index: 1;
-    max-width: 100px;
+    max-width: 80%;
 }
 
 .img-bg-pokemon {
