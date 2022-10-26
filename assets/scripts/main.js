@@ -4,7 +4,7 @@ const moreButton = document.getElementById("more")
 const newPagePokemon = document.getElementsByClassName("pokemon")
 const limit = 60;
 let offset = 0;
-const maxRecords = 251
+const maxRecords = 2000
 
 
 //Deixando a primeira letra maiuscula
