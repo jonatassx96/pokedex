@@ -1,3 +1,9 @@
+
+const pokemonOl = document.getElementById("pokemonList");
+const moreButton = document.getElementById("more")
+const limit = 60;
+let offset = 0;
+
 //Deixando a primeira letra maiuscula
 function convertPokemonNameUpperCase(pokemonName) {
   const pokemonNameLowerCase = pokemonName;
@@ -43,9 +49,19 @@ function convertPokemonToLi(pokemon) {
   `;
 }
 
-const pokemonOl = document.getElementById("pokemonList");
+
 //Processamento assincrono
 
-pokeApi.getPokemons().then((pokemons = []) => {
-  pokemonOl.innerHTML += pokemons.map(convertPokemonToLi).join("");
-});
+function loadPokemons(offset, limit) {
+  pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
+    const newHtml = pokemons.map(convertPokemonToLi).join("");
+    pokemonOl.innerHTML += newHtml
+  });
+}
+
+loadPokemons(offset, limit)
+
+moreButton.addEventListener('click', () => {
+  offset += limit
+  loadPokemons(offset, limit)
+})

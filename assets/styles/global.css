@@ -87,3 +87,19 @@ body {
         margin: 0 auto;
     }
 }
+
+.pagination ,.down{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #FD3234;
+    border: none;
+}
+
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100px;
+    background-color: #FD3234;
+}
