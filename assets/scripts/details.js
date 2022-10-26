@@ -9,7 +9,7 @@ function convertPokemonToLi(pokemon) {
     return `
     <div class="divisao">
         <h2>${pokemon.name}</h2>
-        <p>#${pokemon.number}</p>
+        <p>#${pokemon.id}</p>
         <ol class="types">
             ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
         </ol>
