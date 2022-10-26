@@ -103,3 +103,11 @@ body {
     width: 100px;
     background-color: #FD3234;
 }
+
+.down:hover {
+    cursor: pointer;
+}
+
+.container-img:hover {
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 
 const pokemonOl = document.getElementById("pokemonList");
 const moreButton = document.getElementById("more")
+const newPagePokemon = document.getElementsByClassName("pokemon")
 const limit = 60;
 let offset = 0;
 const maxRecords = 151
@@ -38,10 +39,12 @@ function convertPokemonToLi(pokemon) {
             .join("")}
         </ol>
           <div class="container-img">
-            <img  class="img-pokemon"
-              src="${pokemon.photo}"
-              alt="${pokemon.name}"
-            />
+            <a href="./page-pokemon.html">
+              <img  class="img-pokemon" onclick="moreInfoPokemon()"
+                src="${pokemon.photo}"
+                alt="${pokemon.name}"
+              />
+            </a>
           </div>
           <img src="./assets/imagens/pokeball.png" class="img-bg-pokemon"
           alt="fundo"
@@ -77,3 +80,7 @@ moreButton.addEventListener('click', () => {
   }
   
 })
+
+function moreInfoPokemon() {
+  console.log('oi')
+}
