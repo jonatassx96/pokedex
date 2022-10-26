@@ -67,20 +67,20 @@
 
 /* Media queries*/
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 38rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 56rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 85rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
