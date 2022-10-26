@@ -20,33 +20,60 @@ body {
 .circle-smaller {
     position: relative;
     top: 2px;
-
-    background-color: aqua;
+    background-color: #fffafa;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 5px solid #fffafa;
 }
 
 .box-h1 {
     display: flex;
     align-items: center;
-    text-indent: 2rem;
+    text-indent: 1rem;
     height: 80px;
     padding-left: 1rem;
     margin-bottom: 0px;
     margin-top: 0px;
-    background-color: #381011;
-
+    background: linear-gradient(120deg, rgba(201, 28, 28, 1) 0%, rgba(217, 55, 55, 1) 68%, rgba(228, 108, 108, 1) 72%, rgba(224, 137, 137, 1) 73%, rgba(228, 108, 108, 1) 75%, rgba(221, 61, 61, 1) 77%, rgba(221, 61, 61, 1) 80%, rgba(228, 108, 108, 1) 83%, rgba(224, 137, 137, 1) 84%, rgba(228, 108, 108, 1) 86%, rgba(217, 55, 55, 1) 88%, rgba(201, 28, 28, 1) 100%);
+    box-shadow: 0px 5px 30px 5px #00000075;
 }
 
-.pokedex-top {
+.circle-red {
+    margin: 0px 2px 20px 15px;
+    background-image: radial-gradient(circle, red 0%, rgb(150, 0, 0) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.circle-yellow {
+    margin: 0px 2px 20px 2px;
+    background-image: radial-gradient(circle, yellow 0%, rgb(150, 150, 0) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.circle-green {
+    margin: 0px 2px 20px 2px;
+    background-image: radial-gradient(circle, green 0%, rgb(0, 150, 0) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.circle-smaller-2 {
     position: relative;
-    bottom: 10px;
-    height: 50px;
-    width: 250px;
-    background-color: #381011;
-    border-radius: 0px 0px 100% 0px;
+    top: 2px;
+    left: 2px;
+    background-color: #fffafa;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
 }
 
 /*Media queries*/
