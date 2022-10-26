@@ -19,8 +19,9 @@
 }
 
 .number-pokemon {
+    font-weight: bolder;
     font-size: 0.8rem;
-    color: #bebebe;
+    color: #fffafa;
     text-align: right;
 }
 
@@ -61,26 +62,26 @@
     bottom: .5rem;
     right: .5rem;
     z-index: 0;
-    max-width: 80px;
+    max-width: 70px;
     opacity: 0.3;
 }
 
 /* Media queries*/
 
-@media screen and (min-width: 38rem) {
+@media screen and (min-width: 20rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 56rem) {
+@media screen and (min-width: 50rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 
-@media screen and (min-width: 85rem) {
+@media screen and (min-width: 80rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
