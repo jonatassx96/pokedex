@@ -3,6 +3,8 @@ const pokemonOl = document.getElementById("pokemonList");
 const moreButton = document.getElementById("more")
 const limit = 60;
 let offset = 0;
+const maxRecords = 151
+
 
 //Deixando a primeira letra maiuscula
 function convertPokemonNameUpperCase(pokemonName) {
@@ -63,5 +65,15 @@ loadPokemons(offset, limit)
 
 moreButton.addEventListener('click', () => {
   offset += limit
-  loadPokemons(offset, limit)
+
+  const qtdRecord = offset + limit
+  if(qtdRecord >= maxRecords){
+    const newLimit = qtdRecord - 149
+    loadPokemons(offset, newLimit)
+
+    moreButton.parentElement.removeChild(moreButton)
+  } else {
+    loadPokemons(offset, limit)
+  }
+  
 })
