@@ -33,9 +33,11 @@
 }
 
 
+
 .pokemon{
-    width: 12rem;
-    height: 10rem;
+    padding: 1rem;
+    width: 11rem;
+    height: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +45,6 @@
     border-radius: 10px 10px 10px 30px;
     border: 5px double #00000086;
     margin: .2rem;
-    padding: .2rem;
 }
 
 .number-pokemon {
@@ -80,6 +81,15 @@
     background-color: #16c286;
 }
 
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+
+}
+
 .img-pokemon {
     position: relative;
     z-index: 1;
@@ -88,10 +98,10 @@
 
 .img-bg-pokemon {
     position: absolute;
-    bottom: .5rem;
-    right: .5rem;
+    bottom: .2rem;
+    right: -10px;
     z-index: 0;
-    max-width: 70px;
+    max-width: 80px;
     opacity: 0.3;
 }
 
