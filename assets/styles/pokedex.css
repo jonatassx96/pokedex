@@ -68,7 +68,7 @@
 
 /* Media queries*/
 
-@media screen and (min-width: 20rem) {
+@media screen and (min-width: 25rem) {
     .pokemon-list {
         grid-template-columns: 1fr 1fr;
     }
