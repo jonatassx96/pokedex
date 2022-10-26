@@ -1,4 +1,6 @@
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -32,7 +34,7 @@ body {
     text-indent: 1rem;
     height: 80px;
     padding-left: 1rem;
-    margin-bottom: 0px;
+    margin-bottom: 1.5rem;
     margin-top: 0px;
     background: linear-gradient(120deg, rgba(201, 28, 28, 1) 0%, rgba(217, 55, 55, 1) 68%, rgba(228, 108, 108, 1) 72%, rgba(224, 137, 137, 1) 73%, rgba(228, 108, 108, 1) 75%, rgba(221, 61, 61, 1) 77%, rgba(221, 61, 61, 1) 80%, rgba(228, 108, 108, 1) 83%, rgba(224, 137, 137, 1) 84%, rgba(228, 108, 108, 1) 86%, rgba(217, 55, 55, 1) 88%, rgba(201, 28, 28, 1) 100%);
     box-shadow: 0px 5px 30px 5px #00000075;

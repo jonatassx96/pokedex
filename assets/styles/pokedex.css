@@ -1,27 +1,3 @@
-/*@media screen and (min-width: 20rem) {
-    .pokemon-list {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 25rem) {
-    .pokemon-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-
-@media screen and (min-width: 40rem) {
-    .pokemon-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-
-    display: grid;
-    grid-template-columns: 1fr;
-
-*/
 
 .pokemon-list {
     display: flex;
