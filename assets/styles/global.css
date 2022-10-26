@@ -30,8 +30,8 @@ body {
 }
 
 .box-h1 {
-    position: sticky;
-top: 0px;
+    position: fixed;
+    top: 0px;
     display: flex;
     align-items: center;
     text-indent: 1rem;
