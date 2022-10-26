@@ -70,10 +70,7 @@
 }
 
 .img-pokemon {
-    position: absolute;
-    bottom: .2rem;
-    right: -10px;
-   /* position: relative;*/
+    position: relative;
     z-index: 1;
     max-width: 10rem;
 }
