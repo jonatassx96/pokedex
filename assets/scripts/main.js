@@ -71,7 +71,7 @@ moreButton.addEventListener('click', () => {
 
   const qtdRecord = offset + limit
   if(qtdRecord >= maxRecords){
-    const newLimit = qtdRecord - maxRecords
+    const newLimit = qtdRecord - 611
     loadPokemons(offset, newLimit)
 
     moreButton.parentElement.removeChild(moreButton)
