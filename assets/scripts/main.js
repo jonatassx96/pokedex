@@ -39,12 +39,12 @@ function convertPokemonToLi(pokemon) {
             .join("")}
         </ol>
           <div class="container-img">
-            <a href="#">
+            
               <img  class="img-pokemon" onclick="moreInfoPokemon()"
                 src="${pokemon.photo}"
                 alt="${pokemon.name}"
               />
-            </a>
+            
           </div>
           <img src="./assets/imagens/pokeball.png" class="img-bg-pokemon"
           alt="fundo"
