@@ -49,6 +49,8 @@
 }
 
 .type {
+    position: relative;
+    left: -10px;
     font-size: .8rem;
     text-align: center;
     margin: 5px;
