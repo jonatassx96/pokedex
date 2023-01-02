@@ -2,8 +2,8 @@
 const pokemonOl = document.getElementById("pokemonList");
 const moreButton = document.getElementById("more")
 const newPagePokemon = document.getElementsByClassName("pokemon")
-const limit = 60;
-let offset = 0;
+const limit = 60
+let offset = 0
 const maxRecords = 649
 
 
